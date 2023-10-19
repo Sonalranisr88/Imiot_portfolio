@@ -1,0 +1,160 @@
+
+body{
+    background-color: #180A25;
+    color: white;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
+    
+    
+}
+.image{
+   max-width:10%;
+   max-height:10%;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top:58px;
+    bottom:379px;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    border-image: linear-gradient(300deg,#ac52be,#643eee,#72ccef)1;
+    border-radius: 20px;
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);  
+}
+
+nav ul button{
+    color:white;
+    background:linear-gradient(300deg,#ef8172,#ee3e96,#ac52be);
+    border-radius: 20px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.purple{
+    background: linear-gradient(
+            to right,
+             #cf23cf, #eb8ce3);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+main {
+    text-align: center;
+    margin-top: 150px;
+}
+main h1{
+    margin: 0 0;
+    padding: 10px;
+}
+.product{
+    background: linear-gradient(
+            to right, #f012f0,#8c0ed4 ,
+             #f01bf0,#1b0ed4 );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+.btn{
+    color:white;
+    background-color: #660fb8;
+    border-radius: 10px;
+    border:#660fb8 ;
+    font-size: 20px;
+}
+.firstclass{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+strong{
+    color: #8121db;
+}
+
+.role{
+    margin-top: 100px;
+    color: #b44ee4;
+}
+.reel{
+    color: #b44ee4;
+    margin-bottom: 100px;
+}
+.b{
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+.c{
+    margin-bottom: 100px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 50px;
+    
+}
+.rapper{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 50px;
+    
+}
+.apper{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 50px;
+    float: right;
+    
+}
+.fa-solid{
+    color:  #b44ee4;
+}
+.grey{
+    color: rgb(153, 145, 145);
+}
+footer ul{
+    list-style: none;
+    padding: 0 15px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    margin: 50px 50px 50px 50px;
+}
+.bow{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 800px){
+ 
+
+
+  
+  
+
+}
